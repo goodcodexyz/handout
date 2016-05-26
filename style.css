@@ -1,0 +1,51 @@
+body {
+  color: white;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: purple;
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.panel {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  width: 100%;
+  margin-bottom: 8px;
+  background-color: #83B6FF;
+}
+
+.instructions, .image {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: center;
+  -webkit-justify-content: center;
+  padding: 20px;
+  font-size: 20px;
+  min-width: 300px;
+  font-weight: lighter;
+}
+
+.image {
+  display: block;
+  padding: 20px
+}
+
+.image img {
+  max-height: 400px;
+  object-fit: none;
+}
