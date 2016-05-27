@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% for task in site.tasks %}
+<div class='header'> {{task.title}}</div>
+{% for block in task.activities %}
+<div class='panel'>
+  <div class='instructions'>
+    <div class='bullet'>1</div>
+    <ol>
+    {% for step in block.steps %}
+      <li>{{step}}</li>
+    {% endfor %}
+    </ol>
+  </div>
+  <div class='image'>
+    <img src="{{block.image}}">
+  </div>
+</div>
+{% endfor %}
+</div>
+{% endfor %}
