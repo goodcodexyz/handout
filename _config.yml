@@ -1,10 +1,9 @@
 # Site settings
 title: Super Animators
 description: Checkout the cool things you can build using Scratch! Happy coding!
-github:
-  url: "http://goodcodexyz.github.io/handout"
 baseurl: "" # the subpath of your site, e.g. /blog/
 # Build settings
+repository: goodcodexyz/handout
 markdown: kramdown
 collections:
   - tasks
