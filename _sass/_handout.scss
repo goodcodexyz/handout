@@ -1,3 +1,6 @@
+.header, .instructions, .bullet {
+}
+
 .header {
   background-color: purple;
   margin-bottom: 8px;
@@ -45,7 +48,8 @@
 
 .image img {
   max-height: 400px;
-  object-fit: none;
+  max-width: 300px;
+  object-fit: cover;
 }
 
 li {
