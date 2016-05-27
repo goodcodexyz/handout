@@ -82,3 +82,10 @@ li {
   flex-shrink: 0;
   -webkit-flex-shrink: 0;
 }
+
+@media screen and (max-width: 800px) {
+  .panel, .instructions {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+  }
+}
