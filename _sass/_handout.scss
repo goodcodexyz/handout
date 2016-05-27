@@ -1,6 +1,7 @@
 body {
   color: white;
   font-family: sans-serif;
+  margin: 8px;
 }
 
 .header {
@@ -30,10 +31,9 @@ body {
   display: -ms-flexbox;      /* TWEENER - IE 10 */
   display: -webkit-flex;     /* NEW - Chrome */
   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-  flex-direction: column;
-  -webkit-flex-direction: column;
   justify-content: center;
   -webkit-justify-content: center;
+  align-items: center;
   padding: 20px;
   font-size: 20px;
   min-width: 300px;
@@ -42,10 +42,31 @@ body {
 
 .image {
   display: block;
-  padding: 20px
+  padding: 20px;
+  align-items: center;
+  -webkit-align-items: center;
+  text-align: center;
 }
 
 .image img {
   max-height: 400px;
   object-fit: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.bullet {
+  background-color: #ffff9d;
+  color: #989898;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  margin: 0 30px;
 }
