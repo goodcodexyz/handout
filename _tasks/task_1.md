@@ -22,4 +22,16 @@ activities:
         "Add Wait control block after Next Costume to make the animation slower",
         "Enclose it in a Forever control block"
       ]
+  - image: "images/t1-04.gif"
+    steps:
+      [
+        "Add another sprite kid (D-Money Hip-Hop)",
+        "Copy the same script from the first sprite",
+      ]
+  - image: "images/t1-05.gif"
+    steps:
+      [
+        "Change the backdrop from the sprites panel",
+        "Play around with the animations you've learned"
+      ]
 ---

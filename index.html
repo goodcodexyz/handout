@@ -6,7 +6,7 @@ layout: default
 {% for block in task.activities %}
 <div class='panel'>
   <div class='instructions'>
-    <div class='bullet'>1</div>
+    <div class='bullet'>{{forloop.index}}</div>
     <ol>
     {% for step in block.steps %}
       <li>{{step}}</li>
