@@ -106,4 +106,14 @@ li {
     flex-direction: column;
     -webkit-flex-direction: column;
   }
+
+  .fixed-top {
+    position: relative;
+    padding: 0;
+    margin-bottom: 8px;
+  }
+
+  .page-content {
+    margin-top: 0;
+  }
 }
