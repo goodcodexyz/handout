@@ -1,22 +1,9 @@
 ---
 layout: default
 ---
-{% for task in site.tasks %}
-<div class='header'> {{task.title}}</div>
-{% for block in task.activities %}
-<div class='panel'>
-  <div class='instructions'>
-    <div class='bullet'>{{forloop.index}}</div>
-    <ol class="list">
-    {% for step in block.steps %}
-      <li>{{step}}</li>
-    {% endfor %}
-    </ol>
-  </div>
-  <div class='image'>
-    <img src="{{block.image}}">
-  </div>
+{% include navbar.html %}
+<div class="tasks">
+  {% for task in site.tasks %}
+  <a class='header -link' href="{{site.baseurl}}{{task.url}}">{{task.title}}</a>
+  {% endfor %}
 </div>
-{% endfor %}
-</div>
-{% endfor %}

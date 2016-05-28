@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class='fixed-top'>
+  {% include navbar.html %}
+  <div class='header -sub'> {{page.title}}</div>
+</div>
+<div class='page-content'>
+  {% for block in page.activities %}
+  <div class='panel'>
+    <div class='instructions'>
+      <div class='bullet'>{{forloop.index}}</div>
+      <ol class="list">
+      {% for step in block.steps %}
+        <li>{{step}}</li>
+      {% endfor %}
+      </ol>
+    </div>
+    <div class='image'>
+      <img src="/{{block.image}}">
+    </div>
+  </div>
+  {% endfor %}
+</div>
