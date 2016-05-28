@@ -1,7 +1,7 @@
 # Site settings
 title: Super Animators
 description: Checkout the cool things you can build using Scratch! Happy coding!
-baseurl: "/handout" # local call: $ jekyll serve --baseurl ''
+baseurl: "handout" # local call: $ jekyll serve --baseurl ''
 url: "http://goodcodexyz.github.io/handout"
 # Build settings
 repository: goodcodexyz/handout
