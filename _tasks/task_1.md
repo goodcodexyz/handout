@@ -1,6 +1,7 @@
 ---
 layout: task
 title: "TASK ONE : FRAMES"
+permalink: "use-frames"
 activities:
   - image: "images/t1-01.gif"
     steps:

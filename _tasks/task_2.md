@@ -1,6 +1,8 @@
 ---
 layout: task
 title: "TASK TWO : CREATE YOUR HERO"
+permalink: "create-hero"
+content-position: "below"
 activities:
   - image: "images/t2-01.gif"
     steps:
@@ -25,13 +27,22 @@ activities:
     steps:
       [
         "Do the same steps for the torso, arms and legs.",
-        "You may use the Duplicate tool the limbs.",
-        "Don't forget to clip each part together with the Group tool",
+        "Make sure to separate each arm and leg to give them joints.",
+        "You may use the Duplicate tool for the limbs.",
       ]
   - image: "images/t2-05.gif"
     steps:
       [
-        "Checkout how your hero looks in the stage.",
+        "Don't forget to clip each part together with the Group tool.",
+        "You can use the sample hero downloadable from the link below.",
+      ]
+  - image: "images/t2-06.gif"
+    steps:
+      [
+        "Check out how your hero looks in the stage.",
         "You may use the Grow or Shrink tool to adjust its size."
       ]
 ---
+<div class="content-download">
+  <a class="download-btn" href="{{site.baseurl}}/downloads/sample-hero.sb2">Download Sample</a>
+</div>

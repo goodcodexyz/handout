@@ -1,6 +1,7 @@
 ---
 layout: task
 title: "TASK FIVE : CREATE YOUR HERO'S SIDEKICK"
+permalink: "create-sidekick"
 activities:
   - image: "#"
     steps:

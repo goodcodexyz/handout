@@ -1,28 +1,36 @@
 ---
 layout: task
 title: "TASK THREE : ANIMATE YOUR HERO"
+permalink: "animate-hero"
 activities:
-  - image: "images/t1-01.gif"
+  - image: "images/t3-01.png"
     steps:
       [
         "Make sure you are in the Costumes tab.",
-        "Press right click on the thumbnail of your hero.",
-        "Press Duplicate."
+        "Make your hero imitate the Contact frame of the walk cycle.",
+        "To do this, rotate the forearm and shin of your hero's arms and legs.",
       ]
-  - image: "images/t1-02.gif"
+  - image: "images/t3-02.gif"
     steps:
       [
-        "On the second costume, try rotating the parts of your hero.",
-        "Try rotating the legs to make it look like it's taking a step forward."
+        "To rotate a part from a certain point, press shift and click on the anchor point.",
+        "Drag it to where you want the sprite to rotate from."
       ]
-  - image: "images/t1-02.gif"
+  - image: "images/t3-03.png"
+    steps:
+      [
+        "Press right click on the thumbnail of your hero and press duplicate",
+        "On the second costume, try rotating the parts of your hero.",
+        "Rotate both arms and legs to make the Recoil frame."
+      ]
+  - image: "images/t3-04.gif"
     steps:
       [
         "Duplicate the second frame.",
-        "Change the rotation of the legs to make it do another step.",
-        "Create at least four frames to complete the walk cycle."        
+        "Change the rotation of both arms and legs to make the Passing frame.",
+        "Create at the eight frames to complete the walk cycle."
       ]
-  - image: "images/t1-03.png"
+  - image: "images/t3-05.png"
     steps:
       [
         "Go back to the Scripts tab.",
@@ -38,3 +46,4 @@ activities:
         "Click on the green flag or the code blocks and see what happens."
       ]
 ---
+<img class="content-image" src="{{site.baseurl}}/images/walk_cycle.png" />

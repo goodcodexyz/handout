@@ -1,8 +1,9 @@
 ---
 layout: task
 title: "TASK FOUR : MAKE YOUR HERO MOVE AROUND"
+permalink: "move-hero"
 activities:
-  - image: "images/t1-01.gif"
+  - image: "images/t4-01.png"
     steps:
       [
         "Remove Forever and Wait blocks.",
@@ -10,7 +11,7 @@ activities:
         "Add a Right Arrow Key Press event block to make your character move when you press the right arrow key.",
         "Press the right arrow key and see what happens."
       ]
-  - image: "images/t1-02.gif"
+  - image: "images/t4-02.png"
     steps:
       [
         "Make another script for the other direction.",

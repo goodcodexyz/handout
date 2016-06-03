@@ -9,3 +9,30 @@
     font-size: 40px
   }
 }
+
+.content-image {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.content-download {
+  background-color: #2196F3;
+  margin-bottom: 8px;
+  padding: 20px;
+  text-align: center;
+
+  > .download-btn {
+    text-decoration: none;
+    background-color: #ff6e9f;
+    color: white;
+    padding: 20px 40px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+
+    &:hover {
+      background-color: darken(#ff6e9f, 3%);
+    }
+  }
+}

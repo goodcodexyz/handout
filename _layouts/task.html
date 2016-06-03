@@ -6,6 +6,9 @@ layout: default
   <div class='header -sub'> {{page.title}}</div>
 </div>
 <div class='page-content'>
+  {% if page.content-position != "below" %}
+  {{content | remove: '<p>' | remove: '</p>'}}
+  {% endif %}
   {% for block in page.activities %}
   <div class='panel'>
     <div class='instructions'>
@@ -21,6 +24,9 @@ layout: default
     </div>
   </div>
   {% endfor %}
+  {% if page.content-position == "below" %}
+  {{content | remove: '<p>' | remove: '</p>'}}
+  {% endif %}
   {% if page.next.url %}
     <a class='header -link -secondary' href="{{site.baseurl}}{{page.next.url}}">NEXT // {{page.next.title}}</a>
   {% endif %}
