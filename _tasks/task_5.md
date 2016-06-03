@@ -8,10 +8,14 @@ activities:
       [
         "This time, choose the sidekick from the Sprite Library.",
         "You may choose from the Fantasy category for more interesting characters.",
+      ]
+  - image: "images/t5-02.gif"
+    steps:
+      [
         "Make sure to choose a character with more than one costume to animate.",
         "If there are more time, you can create your sidekick from scratch."
       ]
-  - image: "images/t5-02.gif"
+  - image: "images/t5-03.gif"
     steps:
       [
         "Copy the scripts from your hero to the sidekick.",
@@ -20,7 +24,7 @@ activities:
         "Drag the code to the sidekick's thumbnail.",
         "Do the same for Left Key Press script."
       ]
-  - image: "images/t5-03.png"
+  - image: "images/t5-04.png"
     steps:
       [
         "When you click left or right keys, notice that both characters react.",
