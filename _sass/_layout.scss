@@ -42,6 +42,10 @@
   margin-bottom: 8px;
   text-align: center;
 
+  &.-end {
+    background-color: #ff6e9f;
+  }
+
   > .info-image {
     margin-top: 30px;
     margin-bottom: 15px;
@@ -52,10 +56,28 @@
     text-transform: uppercase;
     padding-bottom: 15px;
     font-weight: bold;
+
+    &.-no-image {
+      font-size: 40px;
+      padding-top: 30px;
+    }
   }
 
   > .info-text {
     font-size: 15px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
+
+    &.-no-image {
+      font-size: 25px;
+    }
+  }
+}
+
+.content-link {
+  color: #ffd27e;
+  text-decoration: none;
+
+  &:hover {
+    color: darken(#ffd27e, 10%);
   }
 }

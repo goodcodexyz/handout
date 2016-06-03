@@ -2,6 +2,7 @@
 layout: task
 title: "TASK SIX: MAKE YOUR CHARACTERS TALK"
 permalink: "characters-talk"
+content-position: "below"
 activities:
   - image: "images/t6-01.png"
     steps:
@@ -41,3 +42,12 @@ activities:
         "Press spacebar and see your characters speaking to each other."
       ]
 ---
+<div class="content-info -end">
+  <div class="info-title -no-image">Congratulations!</div>
+  <div class="info-text -no-image">
+    You have made your very first animation!<br>
+    Go publish your work to the
+    <a class="content-link" href="https://scratch.mit.edu/" target="_blank">Scratch online community</a><br>
+    and share it with your friends!
+  </div>
+</div>
