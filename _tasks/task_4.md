@@ -20,7 +20,7 @@ activities:
         "Press the left key and see what happens."
 
       ]
-  - image: "images/t1-02.gif"
+  - image: "images/t4-03.png"
     steps:
       [
         "If you notice, your character doesn't face left.",
@@ -29,7 +29,7 @@ activities:
         "To make it rotate properly, add Set Rotation Style block with 'left-right' as value.",
         "Try out the left key again and see what happens."
       ]
-  - image: "images/t1-03.png"
+  - image: "images/t4-04.png"
     steps:
       [
         "Press the right arrow key and notice the difference in your character's reaction.",
@@ -37,4 +37,19 @@ activities:
         "This will make your character face right when pressing the right key.",
         "Try moving your character around with the left and right keys.",
       ]
+  - image: "images/t4-05.png"
+    steps:
+      [
+        "Try out this motion code blocks and see how your hero moves.",
+        "Attach a different Key Press code block for each Motion block"
+      ]
 ---
+<div class="content-info">
+  <img class="info-image" src="{{site.baseurl}}/images/coordinates.png" />
+  <div class="info-title"> The Coordinate System </div>
+  <div class="info-text">
+    Notice the X and Y values.<br>
+    These state the position of your sprite in the stage.<br>
+    If X and Y are 0, the sprite is at the center.<br>
+  </div>
+</div>
