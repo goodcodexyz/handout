@@ -3,7 +3,7 @@ layout: task
 title: "TASK FIVE : CREATE YOUR HERO'S SIDEKICK"
 permalink: "create-sidekick"
 activities:
-  - image: "#"
+  - image: "images/t5-01.png"
     steps:
       [
         "This time, choose the sidekick from the Sprite Library.",
@@ -11,19 +11,20 @@ activities:
         "Make sure to choose a character with more than one costume to animate.",
         "If there are more time, you can create your sidekick from scratch."
       ]
-  - image: "#"
+  - image: "images/t5-02.gif"
     steps:
       [
         "Copy the scripts from your hero to the sidekick.",
-        "To do this click on your hero from the Sprites panel to view its scripts.",
+        "To do this click on your hero from the Sprites panel.",
         "Press right click on the Right Key Press script and select duplicate.",
-        "This will copy the code which you can drag to the sidekick's thumbnail.",
+        "Drag the code to the sidekick's thumbnail.",
         "Do the same for Left Key Press script."
       ]
-  - image: "#"
+  - image: "images/t5-03.png"
     steps:
       [
         "When you click left or right keys, notice that both characters react.",
-        "You may change the controls if you wish to control them separately",
+        "You may change the controls if you wish to control them separately.",
+        "Replace Right Key with X Key, while Left Key with Z Key."
       ]
 ---
