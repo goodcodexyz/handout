@@ -29,13 +29,13 @@ activities:
         "Change <bl>broadcast [cave-1 v]</bl> to <bl>broadcast [play v]</bl>",
         "Remove all the other scripts that were copied.",
       ]
-  - image: "images/t4-03.svg"
+  - image: "images/t4-04.svg"
     steps:
       [
         "Lastly, add <bl>when I receive [defeat v]</bl> to Play sprite.",
         "Attach <bl>show</bl> to <bl>when I receive [defeat v]</bl>.",
       ]
-  - image: "images/t4-03.svg"
+  - image: "images/t4-05.gif"
     steps:
       [
         "Finally! We can now play our Story Crafters game and defeat the dragon!",
