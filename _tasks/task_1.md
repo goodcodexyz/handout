@@ -26,6 +26,14 @@ activities:
         "If you notice, two more variables have been premade. This is for the game to remember which stage you are in the game, and what your previous stage was.",
         "The check box will make the value of the variable show in your game screen or Scratch stage."
       ]
+  - image: "images/t1-04.gif"
+    steps:
+      [
+        "Now select the <b>start<b> sprite under the Sprites panel.",
+        "Attach <bl>set [level v] to [1]</bl> to <bl>when this sprite clicked</bl>.",
+        "Make sure you set the level to 1.",
+        "This resets your level every time you start the game."
+      ]
 ---
 <div class="content-download">
   <a class="download-btn" href="{{site.baseurl}}/downloads/story-crafters.sb2">Download Scratch Project</a>
