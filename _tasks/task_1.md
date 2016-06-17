@@ -1,39 +1,32 @@
 ---
 layout: task
-title: "TASK ONE : FRAMES"
-permalink: "use-frames"
+title: "TASK ONE : ADD A LEVEL"
+permalink: "add-a-level"
 activities:
-  - image: "images/t1-01.gif"
+  - image: "images/t1-01.png"
     steps:
       [
-        "Start a new Scratch activity.",
-        "Add a sprite (1080 Hip-Hop).",
+        "Download the Story Crafters scratch project.",
+        "Open story-crafters.sb2 project file in your Scratch app.",
       ]
-  - image: "images/t1-02.gif"
+  - image: "images/t1-02.png"
     steps:
       [
-        "Add a Green Flag Click event block.",
-        "Add a Switch Costume looks block.",
-        "Change the costume from the options.",
-        "Click the block and see what happens."
+        "Today, we will be building our adventure game to save the princess!",
+        "But first, we need to be able to fight the minions to level up.",
+        "For your first task, we will make the game remember your level.",
+        "Godspeed hero!"
       ]
-  - image: "images/t1-03.png"
+  - image: "images/t1-03.gif"
     steps:
       [
-        "Change the Switch Costume to Next Costume.",
-        "Add Wait control block after Next Costume to make the animation slower.",
-        "Enclose it in a Forever control block."
-      ]
-  - image: "images/t1-04.gif"
-    steps:
-      [
-        "Add another sprite kid (D-Money Hip-Hop).",
-        "Copy the same script from the first sprite.",
-      ]
-  - image: "images/t1-05.gif"
-    steps:
-      [
-        "Change the backdrop from the sprites panel.",
-        "Play around with the animations you've learned."
+        "Under the Data Scripts block, click Make a Variable.",
+        "Name the variable 'level'.",
+        "Make sure 'For all sprites' is ticked.",
+        "If you notice, two more variables have been premade. This is for the game to remember which stage you are in the game, and what your previous stage was.",
+        "The check box will make the value of the variable show in your game screen or Scratch stage."
       ]
 ---
+<div class="content-download">
+  <a class="download-btn" href="{{site.baseurl}}/downloads/story-crafters.sb2">Download Scratch Project</a>
+</div>
