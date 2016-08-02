@@ -2,6 +2,7 @@
 layout: task
 title: "TASK FOUR : BRING IN THE CREW"
 permalink: "bring-crew"
+content-position: "below"
 activities:
   - image: "images/t1-01.png"
     steps:
@@ -24,4 +25,11 @@ activities:
         "Play around with motion and look blocks to make it happen!",
         "Clue! Use a <bl>repeat (15)</bl> block."
       ]
+  - image: "images/t4-03.gif"
+    steps:
+      [
+        "Great job! Share your work to your classmates and friends!",
+        "You've made a dance video!"
+      ]
 ---
+{% include congrats.html %}
