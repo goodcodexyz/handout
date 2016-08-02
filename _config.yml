@@ -1,5 +1,5 @@
 # Site settings
-title: Story Crafters
+title: "Sequences - A Dance Video"
 description: Check out the cool things you can build using Scratch! Happy coding!
 baseurl: "/handout" # local call: $ jekyll serve --baseurl ''
 url: "http://goodcodexyz.github.io/handout"
