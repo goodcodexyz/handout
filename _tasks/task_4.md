@@ -23,7 +23,7 @@ activities:
       [
         "<b class = 'red-font'>CHALLENGE:</b> Make one of your characters do a moon walk!",
         "Play around with motion and look blocks to make it happen!",
-        "Clue! Use a <bl>repeat (15)</bl> block."
+        "Clue! Use a <bl>repeat (15)</bl> block.",
       ]
   - image: "images/t4-03.gif"
     steps:
