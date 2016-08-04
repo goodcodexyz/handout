@@ -1,7 +1,8 @@
 ---
 layout: task
+activity: "dance-video"
 title: "TASK TWO : MAKE THE SPRITE DANCE"
-permalink: "dancing-sprite"
+permalink: :collection/dancing-sprite
 activities:
   - image: "images/dance-t2-01.gif"
     steps:

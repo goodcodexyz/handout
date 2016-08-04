@@ -1,7 +1,8 @@
 ---
 layout: task
+activity: "dance-video"
 title: "TASK ONE : GETTING STARTED"
-permalink: "getting-started"
+permalink: :collection/getting-started
 activities:
   - image: "images/dance-t1-01.gif"
     steps:

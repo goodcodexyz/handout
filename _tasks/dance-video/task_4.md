@@ -1,7 +1,8 @@
 ---
 layout: task
+activity: "dance-video"
 title: "TASK FOUR : BRING IN THE CREW"
-permalink: "bring-crew"
+permalink: :collection/bring-crew
 content-position: "below"
 activities:
   - image: "images/dance-t4-01.gif"
@@ -24,12 +25,6 @@ activities:
         "Great job! Share your work to your classmates and friends!",
         "You've made a dance video!"
       ]
-  - image: "images/dance-t4-03.gif"
-    steps:
-      [
-        "<b class = 'red-font'>CHALLENGE:</b> Make one of your characters do a moon walk!",
-        "Play around with motion and look blocks to make it happen!",
-        "Clue! Use a <bl>repeat (15)</bl> block.",
-      ]
 ---
+{% include challenge.html challenge="dance-video" %}
 {% include congrats.html %}

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class='fixed-top'>
+  {% include navbar.html %}
+  <div class='header -sub'> {{page.title}}</div>
+</div>
+<div class='page-content'>
+  {% if page.content-position != "below" %}
+  {{content | remove: '<p>' | remove: '</p>'}}
+  {% endif %}
+  {% for block in page.activities %}
+  <div class='panel'>
+    <div class='instructions'>
+      <div class='bullet'>{{forloop.index}}</div>
+      <ol class="list">
+      {% for step in block.steps %}
+        <li>{{step}}</li>
+      {% endfor %}
+      </ol>
+    </div>
+    <div class='image'>
+      <img src="{{site.baseurl}}/{{block.image}}">
+    </div>
+  </div>
+  {% endfor %}
+  {% if page.content-position == "below" %}
+  {{content | remove: '<p>' | remove: '</p>'}}
+  {% endif %}
+  {% if page.next.url %}
+    <a class='header -link -secondary' href="{{site.baseurl}}{{page.next.url}}">NEXT // {{page.next.title}}</a>
+  {% endif %}
+</div>
