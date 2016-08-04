@@ -1,11 +1,9 @@
 ---
 title: 'TASK FOUR : BRING IN THE CREW'
-permalink: collection/bring-crew
-layout: task
-activity: "dance-video"
-title: "TASK FOUR : BRING IN THE CREW"
 permalink: ":collection/bring-crew"
-content-position: "below"
+layout: task
+activity: dance-video
+content-position: below
 activities:
 - image: images/dance-t4-01.gif
   steps:

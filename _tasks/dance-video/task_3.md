@@ -1,10 +1,8 @@
 ---
 title: 'TASK THREE : BUILD THE SCENE'
-permalink: collection/build-scene
-layout: task
-activity: "dance-video"
-title: "TASK THREE : BUILD THE SCENE"
 permalink: ":collection/build-scene"
+layout: task
+activity: dance-video
 activities:
 - image: images/dance-t3-01.gif
   steps:
