@@ -1,10 +1,8 @@
 ---
 title: 'TASK ONE : GETTING STARTED'
-permalink: collection/getting-started
-layout: task
-activity: "dance-video"
-title: "TASK ONE : GETTING STARTED"
 permalink: ":collection/getting-started"
+layout: task
+activity: dance-video
 activities:
 - image: images/dance-t1-01.gif
   steps:

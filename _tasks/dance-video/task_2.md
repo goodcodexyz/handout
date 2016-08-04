@@ -1,10 +1,8 @@
 ---
 title: 'TASK TWO : MAKE THE SPRITE DANCE'
-permalink: collection/dancing-sprite
-layout: task
-activity: "dance-video"
-title: "TASK TWO : MAKE THE SPRITE DANCE"
 permalink: ":collection/dancing-sprite"
+layout: task
+activity: dance-video
 activities:
 - image: images/dance-t2-01.gif
   steps:
