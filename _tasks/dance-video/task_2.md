@@ -1,6 +1,6 @@
 ---
 title: 'TASK TWO : MAKE THE SPRITE DANCE'
-permalink: "dance-video/:collection/dancing-sprite"
+permalink: dance-video/:collection/dancing-sprite
 layout: task
 activity: dance-video
 activities:
@@ -35,3 +35,4 @@ activities:
     upon pressing a key.
   - You may assign a different key to make it move.
 ---
+

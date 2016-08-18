@@ -1,9 +1,9 @@
 ---
 title: 'CHALLENGE: PLAY AROUND WITH YOUR MANDALA!'
-layout: challenge
-activity: "mandala"
 permalink: ":collection/mandala"
-content-position: "below"
+layout: challenge
+activity: mandala
+content-position: below
 activities:
 - image: images/moonwalk.gif
   steps:

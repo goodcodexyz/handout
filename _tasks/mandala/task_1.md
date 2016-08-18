@@ -1,6 +1,6 @@
 ---
 title: 'TASK ONE : MAKE THE BRUSH'
-permalink: "mandala/:collection/make-the-brush"
+permalink: mandala/:collection/make-the-brush
 layout: task
 activity: mandala
 activities:
@@ -23,10 +23,14 @@ activities:
   - Press spacebar and see what happens.
 - image: images/dance-t1-04.gif
   steps:
-  - Let's clear the drawing whenever we press the green flag by using this <bl>When green flag clicked</bl>.
+  - Let's clear the drawing whenever we press the green flag by using this <bl>When
+    green flag clicked</bl>.
   - Attach <bl>pen up</bl> and then <bl>clear</bl>.
   - To reset the cat's position to the middle, attach <bl>go to x:(0) y:(0)</bl>.
-  - We'll be rotating the cat later on, so we should also reset its rotation by using <bl>point in direction(90 v)</bl>.
-  - To make sure the cat is small enough, attach <bl>set size to (30)%</bl> from the Looks blocks.
+  - We'll be rotating the cat later on, so we should also reset its rotation by using
+    <bl>point in direction(90 v)</bl>.
+  - To make sure the cat is small enough, attach <bl>set size to (30)%</bl> from the
+    Looks blocks.
   - Your code block should look like this.
 ---
+

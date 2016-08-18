@@ -1,9 +1,9 @@
 ---
 title: 'CHALLENGE: SPICE UP YOUR DANCE VIDEO!'
-layout: challenge
-activity: "dance-video"
 permalink: ":collection/dance-video"
-content-position: "below"
+layout: challenge
+activity: dance-video
+content-position: below
 activities:
 - image: images/dance_video/moonwalk.gif
   steps:

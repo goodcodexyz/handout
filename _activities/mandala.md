@@ -1,7 +1,7 @@
 ---
 title: Mandala Maker
-name: Make radial patterns in Scratch.
-slug: mandala
 permalink: ":collection/:slug"
+name: Make radial patterns in Scratch.
 layout: activity
 ---
+
