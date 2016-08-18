@@ -4,11 +4,11 @@ permalink: mandala/:collection/draw-a-circle
 layout: task
 activity: mandala
 activities:
-- image: images/dance-t1-01.gif
+- image: images/mandala/t2-01.gif
   steps:
   - Let's draw our first shape!
   - Remove <bl>move (100) steps</bl> attached to <bl>pen down</bl>
-- image: images/dance-t1-01.gif
+- image: images/mandala/t2-02.svg
   steps:
   - To make the cat draw a circle we make him move 1 step forward and turn 1 degree
     360 times!
@@ -16,7 +16,7 @@ activities:
   - Attach <bl>repeat () </bl> and add 360.
   - Inside the repeat block, add <bl>move (1) steps</bl> and <bl>turn CW (1) degrees</bl>.
   - Now press spacebar and see what happens!
-- image: images/dance-t1-01.gif
+- image: images/mandala/t2-03.gif
   steps:
   - The cat moves quite slow though. Let's make it rush!
   - Under Edit menu, click Turbo Mode.
@@ -24,4 +24,3 @@ activities:
   - Now press the green flag, then press spacebar and see what happens.
   - Now the cat is a fast as The Flash!
 ---
-
