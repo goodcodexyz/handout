@@ -1,6 +1,6 @@
 ---
 title: 'TASK FOUR : BRING IN THE CREW'
-permalink: "dance-video/:collection/bring-crew"
+permalink: dance-video/:collection/bring-crew
 layout: task
 activity: dance-video
 content-position: below

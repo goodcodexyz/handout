@@ -1,7 +1,7 @@
 ---
 title: Dance Video
-name: Make a Dance Video
-slug: dance-video
 permalink: ":collection/:slug"
+name: Make a Dance Video
 layout: activity
 ---
+

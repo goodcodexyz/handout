@@ -1,6 +1,6 @@
 ---
 title: 'TASK THREE : BUILD THE SCENE'
-permalink: "dance-video/:collection/build-scene"
+permalink: dance-video/:collection/build-scene
 layout: task
 activity: dance-video
 activities:
@@ -31,3 +31,4 @@ activities:
   - Try attaching another <bl>play sound [music loop v] until done</bl>
   - Try it out by clicking the green flag.
 ---
+
