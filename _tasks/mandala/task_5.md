@@ -23,3 +23,4 @@ activities:
   - If you forget how to make a flower mandala, feel free to go back to task 4.
   - Press A, and your mandala should look like this.
 ---
+
