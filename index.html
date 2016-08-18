@@ -4,9 +4,7 @@ layout: default
 
 {% include navbar.html %}
 <div class="tasks">
-  {% for task in site.tasks %}
-    {% if task.activity == "dance-video" %}
-      <a class='header -link' href="{{site.baseurl}}{{task.url}}">{{task.title}}</a>
-    {% endif %}
+  {% for activity in site.activities %}
+    <a class='header -link' href="{{site.baseurl}}{{activity.url}}">{{activity.title}}</a>
   {% endfor %}
 </div>

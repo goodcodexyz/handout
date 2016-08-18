@@ -1,8 +1,8 @@
 ---
-title: 'CHALLENGE: SPICE UP YOUR DANCE VIDEO!'
+title: 'CHALLENGE: PLAY AROUND WITH YOUR MANDALA!'
 layout: challenge
-activity: "dance-video"
-permalink: ":collection/dance-video"
+activity: "mandala"
+permalink: ":collection/mandala"
 content-position: "below"
 activities:
 - image: images/moonwalk.gif

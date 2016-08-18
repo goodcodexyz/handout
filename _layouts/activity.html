@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{% include navbar.html %}
+<div class="tasks">
+  {% for task in site.tasks %}
+    {% if task.activity == page.slug %}
+      <a class='header -link' href="{{site.baseurl}}{{task.url}}">{{task.title}}</a>
+    {% endif %}
+  {% endfor %}
+</div>
