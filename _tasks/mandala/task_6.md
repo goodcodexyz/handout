@@ -21,6 +21,4 @@ activities:
   - Try out different colors by changing the pen color with <bl>change pen color by
     (10)</bl>
 ---
-
-{% include challenge.html challenge="mandala" %}
 {% include congrats.html %}
