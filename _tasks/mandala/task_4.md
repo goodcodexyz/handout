@@ -25,3 +25,4 @@ activities:
   - If you got it correctly, you would be able to make a flower mandala!
   - If you need help, feel free to approach your instructor.
 ---
+
