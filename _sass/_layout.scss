@@ -41,35 +41,44 @@
   background-color: #2196F3;
   margin-bottom: 8px;
   text-align: center;
+  padding: 30px 0;
 
   &.-end {
     background-color: #ff6e9f;
   }
 
   > .info-image {
-    margin-top: 30px;
     margin-bottom: 15px;
   }
 
-  > .info-title {
-    font-size: 20px;
-    text-transform: uppercase;
-    padding-bottom: 15px;
-    font-weight: bold;
+}
 
-    &.-no-image {
-      font-size: 40px;
-      padding-top: 30px;
-    }
+.info-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  &.-large {
+    font-size: 40px;
+  }
+}
+
+.info-text {
+  font-size: 15px;
+  padding-top: 15px;
+
+  &.-large {
+    font-size: 25px;
+  }
+}
+
+.info-tite, .info-text {
+  &.-bottom {
+    padding-bottom: 15px;
   }
 
-  > .info-text {
-    font-size: 15px;
-    padding-bottom: 30px;
-
-    &.-no-image {
-      font-size: 25px;
-    }
+  &.-top {
+    padding-top: 0px;
   }
 }
 

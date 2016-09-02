@@ -13,16 +13,24 @@ layout: default
   {% for block in page.activities %}
   <div class='panel'>
     <div class='instructions'>
-      <div class='bullet'>{{forloop.index}}</div>
-      <ol class="list">
-      {% for step in block.steps %}
-        <li>{{step}}</li>
-      {% endfor %}
-      </ol>
+      {% if page.type == "list" %}
+        <div class='bullet'></div>
+        {% for step in block.steps %}
+          {{step}}<br>
+        {% endfor %}
+      {% else %}
+        <div class='bullet'>{{forloop.index}}</div>
+        <ol class="list">
+        {% for step in block.steps %}
+          <li>{{step}}</li>
+        {% endfor %}
+      {% endif %}
     </div>
-    <div class='image'>
-      <img src="{{site.baseurl}}/{{block.image}}">
-    </div>
+    {% if block.image != "none" %}
+      <div class='image'>
+        <img src="{{site.baseurl}}/{{block.image}}">
+      </div>
+    {% endif %}
   </div>
   {% endfor %}
   {% if page.content-position == "below" %}
