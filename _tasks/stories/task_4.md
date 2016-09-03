@@ -13,12 +13,13 @@ activities:
 - image: none
   steps:
   - Save and share your work!
+  - If you did your project offline, log in and upload your work.
   - Now, submit your project to the studio link below.
 - image: none
   steps:
   - Your story goes on and on!
   - Play with the stories shared in the studio by adding a twist in their stories!
-  - Lasty, have fun!
+  - Lastly, have fun!
 ---
 <div class="content-download">
   <div class="info-text -large -bottom -top">
