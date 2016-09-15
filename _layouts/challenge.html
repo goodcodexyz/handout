@@ -20,15 +20,17 @@ layout: default
       {% endfor %}
       </ol>
     </div>
-    <div class='image'>
-      <img src="{{site.baseurl}}/{{block.image}}">
-    </div>
+    {% if block.image != "none" %}
+      <div class='image'>
+        <img src="{{site.baseurl}}/{{block.image}}">
+      </div>
+    {% endif %}
   </div>
   {% endfor %}
   {% if page.content-position == "below" %}
   {{content | remove: '<p>' | remove: '</p>'}}
   {% endif %}
-  {% if page.next.url %}
+  {% if page.activity == page.next.activity  %}
     <a class='header -link -secondary' href="{{site.baseurl}}{{page.next.url}}">NEXT // {{page.next.title}}</a>
   {% endif %}
 </div>
