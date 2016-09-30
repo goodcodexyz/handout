@@ -31,7 +31,7 @@ activities:
   - Your brush should look like this.
 - image: images/canvas/t3-06.gif
   steps:
-  - Great job! Now you can play with these keys A, S, D, F to make a colorful painting!
-  - Try out drawing more patterns!
+  - Great job! Now you can play with these keys A, S, and D to make a colorful painting!
+  - Try drawing more patterns!
 ---
 {% include congrats.html %}
