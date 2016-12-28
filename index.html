@@ -3,8 +3,11 @@ layout: default
 ---
 
 {% include navbar.html %}
-<div class="tasks">
-  {% for activity in site.activities %}
-    <a class='header -link' href="{{site.baseurl}}{{activity.url}}">{{activity.title}}</a>
-  {% endfor %}
+{% include sidebar.html %}
+<div class="main">
+  <div class="tasks">
+    {% for activity in site.activities %}
+      <a class='header -link' href="{{site.baseurl}}{{activity.url}}">{{activity.title}}</a>
+    {% endfor %}
+  </div>
 </div>

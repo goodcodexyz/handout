@@ -1,0 +1,9 @@
+.sidebar {
+  background-color: $sidebar-color;
+  width: $sidebar-width;
+  overflow-y: auto;
+  position: fixed;
+  top: 86px;
+  bottom: 0;
+  margin: 8px 0;
+}

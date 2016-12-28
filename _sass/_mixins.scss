@@ -1,0 +1,105 @@
+/*********************
+TRANSITION
+*********************/
+
+/*
+I totally rewrote this to be cleaner and easier to use.
+You'll need to be using Sass 3.2+ for these to work.
+Thanks to @anthonyshort for the inspiration on these.
+USAGE: @include transition(all 0.2s ease-in-out);
+*/
+
+@mixin transition($transition...) {
+  // defining prefixes so we can use them in mixins below
+  $prefixes:      ("-webkit-", "" );
+  @each $prefix in $prefixes {
+    #{$prefix}transition: $transition;
+  }
+}
+
+/*********************
+CSS3 GRADIENTS
+Be careful with these since they can
+really slow down your CSS. Don't overdo it.
+*********************/
+
+/* @include css-gradient(#dfdfdf,#f8f8f8); */
+@mixin css-gradient($from: #dfdfdf, $to: #f8f8f8) {
+	background-color: $to;
+	background-image: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+	background-image: -webkit-linear-gradient(top, $from, $to);
+	background-image: -moz-linear-gradient(top, $from, $to);
+	background-image: -o-linear-gradient(top, $from, $to);
+	background-image: linear-gradient(to bottom, $from, $to);
+}
+
+/*********************
+BOX SIZING
+*********************/
+
+/* @include box-sizing(border-box); */
+/* NOTE: value of "padding-box" is only supported in Gecko. So
+probably best not to use it. I mean, were you going to anyway? */
+@mixin box-sizing($type: border-box) {
+	-webkit-box-sizing: $type;
+	-moz-box-sizing:    $type;
+	-ms-box-sizing:     $type;
+	box-sizing:         $type;
+}
+
+@mixin display-flex($type: flex) {
+	-webkit-display: $type;
+	-moz-display:    $type;
+	-ms-display:     $type;
+	display:         $type;
+  display: -webkit-flex;
+}
+
+@mixin align-items($type: center) {
+	-webkit-align-items: $type;
+	-moz-align-items:    $type;
+	-ms-align-items:     $type;
+	align-items:         $type;
+}
+
+@mixin justify-content($type: center) {
+	-webkit-justify-content: $type;
+	-moz-justify-content:    $type;
+	-ms-justify-content:     $type;
+	justify-content:         $type;
+}
+
+@mixin flex-direction($type: row) {
+	-webkit-flex-direction: $type;
+	-moz-flex-direction:    $type;
+	-ms-flex-direction:     $type;
+	flex-direction:         $type;
+}
+
+@mixin flex-wrap($type: wrap) {
+	-webkit-flex-wrap: $type;
+	-moz-flex-wrap:    $type;
+	-ms-flex-wrap:     $type;
+	flex-wrap:         $type;
+}
+
+@mixin flex-shrink($type: 0) {
+	-webkit-flex-shrink: $type;
+	-moz-flex-shrink:    $type;
+	-ms-flex-shrink:     $type;
+	flex-shrink:         $type;
+}
+
+@mixin flex($type: 1 100%) {
+	-webkit-flex: $type;
+	-moz-flex:    $type;
+	-ms-flex:     $type;
+	flex:         $type;
+}
+
+@mixin order($type: 1) {
+	-webkit-order: $type;
+	-moz-order:    $type;
+	-ms-order:     $type;
+	order:         $type;
+}

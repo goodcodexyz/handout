@@ -21,7 +21,8 @@ $on-laptop:        800px;
     }
 }
 
-@import "handout", "layout", "shared";
+@import "variables", "mixins";
+@import "handout", "layout", "sidebar", "shared";
 
 body {
   color: white;
