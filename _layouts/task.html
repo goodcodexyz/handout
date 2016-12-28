@@ -2,10 +2,7 @@
 layout: default
 ---
 
-<div class='fixed-top'>
-  {% include navbar.html %}
-  <div class='header -sub'>{{page.title}}</div>
-</div>
+<div class='header'>{{page.title}}</div>
 <div class='page-content'>
   {% if page.content-position != "below" %}
   {{content | remove: '<p>' | remove: '</p>'}}

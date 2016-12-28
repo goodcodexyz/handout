@@ -1,7 +1,3 @@
-.page-content {
-  margin-top: 178px;
-}
-
 .header {
   background-color: purple;
   margin-bottom: 8px;
@@ -15,12 +11,13 @@
     color: white;
   }
 
-  &.-sub {
-    margin: 0px;
+  &.-secondary {
+    background-color: #2196F3;
+    text-align: right;
   }
 
-  &.-secondary {
-    background-color: #2196F3
+  &.-list {
+    padding: 80px 20px
   }
 }
 
