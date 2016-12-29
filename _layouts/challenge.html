@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-
-<div class='fixed-top'>
-  {% include navbar.html %}
-  <div class='header -sub'> {{page.title}}</div>
+{% assign activity = site.activities | where: 'slug', page.activity | first %}
+<a class='subheader -link' href="{{site.baseurl}}/activities/{{page.activity}}">Activity : {{activity.title}}</a>
+<div class='header'>
+  <span class='title'>{{page.title}}</span>
 </div>
 <div class='page-content'>
   {% if page.content-position != "below" %}

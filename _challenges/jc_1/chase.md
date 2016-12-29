@@ -1,5 +1,5 @@
 ---
-title: 'CHALLENGE: ADD MORE THRILL!'
+title: 'CHALLENGE : ADD MORE THRILL!'
 permalink: ":collection/chase"
 layout: challenge
 activity: chase

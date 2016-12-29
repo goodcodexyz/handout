@@ -1,5 +1,6 @@
 ---
-title: 'TASK FOUR : HERE COMES THE DOG'
+task: 'FOUR'
+title: 'HERE COMES THE DOG'
 permalink: chase/:collection/dog
 layout: task
 activity: chase

@@ -1,5 +1,6 @@
 ---
-title: 'TASK THREE : DRAW A BASIC MANDALA'
+task: 'THREE'
+title: 'DRAW A BASIC MANDALA'
 permalink: mandala/:collection/basic-mandala
 layout: task
 activity: mandala
@@ -19,4 +20,3 @@ activities:
   - Enclose the repeat and turn block in <bl>repeat (4)</bl> to make it draw 4 times.
   - Now, press the green flag, and then spacebar once to see what happens!
 ---
-

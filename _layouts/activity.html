@@ -1,11 +1,14 @@
 ---
 layout: default
 ---
-
+<div class='subheader'>Activity : {{page.title}}</div>
 <div class="tasks">
   {% for task in site.tasks %}
     {% if task.activity == page.slug %}
-      <a class='header -link -list' href="{{site.baseurl}}{{task.url}}">{{task.title}}</a>
+      <a class='header -link -list' href="{{site.baseurl}}{{task.url}}">
+        <span class='subtitle'>task {{task.task}}</span>
+        <span class='title'>{{task.title}}</span>
+      </a>
     {% endif %}
   {% endfor %}
 </div>

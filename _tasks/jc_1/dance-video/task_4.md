@@ -1,5 +1,6 @@
 ---
-title: 'TASK FOUR : BRING IN THE CREW'
+task: 'FOUR'
+title: 'BRING IN THE CREW'
 permalink: dance-video/:collection/bring-crew
 layout: task
 activity: dance-video

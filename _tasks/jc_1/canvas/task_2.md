@@ -1,5 +1,6 @@
 ---
-title: 'TASK TWO : PAINT BLOTS'
+task: 'TWO'
+title: 'PAINT BLOTS'
 permalink: canvas/:collection/paint-blots
 layout: task
 activity: canvas

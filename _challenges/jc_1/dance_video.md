@@ -1,5 +1,5 @@
 ---
-title: 'CHALLENGE: SPICE UP YOUR DANCE VIDEO!'
+title: 'CHALLENGE : SPICE UP YOUR DANCE VIDEO!'
 permalink: ":collection/dance-video"
 layout: challenge
 activity: dance-video

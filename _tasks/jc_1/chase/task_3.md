@@ -1,5 +1,6 @@
 ---
-title: 'TASK THREE : ADD A SCORE'
+task: 'THREE'
+title: 'ADD A SCORE'
 permalink: chase/:collection/add-score
 layout: task
 activity: chase

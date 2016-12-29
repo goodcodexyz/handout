@@ -1,5 +1,6 @@
 ---
-title: 'TASK TWO : CHASE THE MOUSE'
+task: 'TWO'
+title: 'CHASE THE MOUSE'
 permalink: chase/:collection/mouse-chase
 layout: task
 activity: chase

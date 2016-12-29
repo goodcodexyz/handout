@@ -1,5 +1,6 @@
 ---
-title: 'TASK ONE : GETTING STARTED'
+task: 'ONE'
+title: 'GETTING STARTED'
 permalink: chase/:collection/getting-started
 layout: task
 activity: chase

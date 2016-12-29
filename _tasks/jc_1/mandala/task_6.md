@@ -1,5 +1,6 @@
 ---
-title: 'TASK SIX : CREATE YOUR MANDALA'
+task: 'SIX'
+title: 'CREATE YOUR MANDALA'
 permalink: mandala/:collection/create-mandala
 layout: task
 activity: mandala

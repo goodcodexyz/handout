@@ -1,5 +1,6 @@
 ---
-title: 'TASK ONE : YOUR "WHAT IF" STORY'
+task: 'ONE'
+title: 'YOUR "WHAT IF" STORY'
 permalink: stories/:collection/what-if
 layout: task
 activity: stories

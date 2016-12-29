@@ -1,5 +1,6 @@
 ---
-title: 'TASK ONE : STARTING A SCENE'
+task: 'TWO'
+title: 'STARTING A SCENE'
 permalink: stories/:collection/start-scene
 layout: task
 activity: stories

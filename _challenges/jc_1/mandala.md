@@ -1,5 +1,5 @@
 ---
-title: 'CHALLENGE: PLAY AROUND WITH YOUR MANDALA!'
+title: 'CHALLENGE : PLAY AROUND WITH YOUR MANDALA!'
 permalink: ":collection/mandala"
 layout: challenge
 activity: mandala

@@ -1,5 +1,6 @@
 ---
-title: 'TASK ONE : GETTING STARTED'
+task: 'ONE'
+title: 'GETTING STARTED'
 permalink: dance-video/:collection/getting-started
 layout: task
 activity: dance-video
@@ -28,4 +29,3 @@ activities:
   - You may use shrink or grow tool to adjust the size of the sprite.
   - We can use other sprites later on.
 ---
-

@@ -1,11 +1,11 @@
+{% case include.list %}
+  {% when 'tasks' %}
+    {% assign list = site.tasks | where: 'activity', include.id %}
+{% endcase %}
 <div class="sidebar">
   <ul>
-    <li>menu 1</li>
-    <li>menu 2</li>
-    <li>menu 3</li>
-    <li>menu 4</li>
-    <li>menu 5</li>
-    <li>menu 6</li>
-    <li>menu 7</li>
+    {% for item in list %}
+      <li>{{ item.title }}</li>
+    {% endfor %}
   </ul>
 </div>

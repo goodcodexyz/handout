@@ -1,5 +1,6 @@
 ---
-title: 'TASK FOUR : DRAW FLOWER MANDALA'
+task: 'FOUR'
+title: 'DRAW FLOWER MANDALA'
 permalink: mandala/:collection/flower-mandala
 layout: task
 activity: mandala
@@ -25,4 +26,3 @@ activities:
   - If you got it correctly, you would be able to make a flower mandala!
   - If you need help, feel free to approach your instructor.
 ---
-

@@ -1,5 +1,6 @@
 ---
-title: 'TASK FIVE : DRAW SQUARES'
+task: 'FIVE'
+title: 'DRAW SQUARES'
 permalink: mandala/:collection/draw-squares
 layout: task
 activity: mandala
@@ -23,4 +24,3 @@ activities:
   - If you forget how to make a flower mandala, feel free to go back to task 4.
   - Press A, and your mandala should look like this.
 ---
-

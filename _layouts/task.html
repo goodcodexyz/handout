@@ -1,10 +1,12 @@
 ---
 layout: default
+list: tasks
 ---
 {% assign activity = site.activities | where: 'slug', page.activity | first %}
+<a class='subheader -link' href="{{site.baseurl}}/activities/{{page.activity}}">Activity : {{activity.title}}</a>
 <div class='header'>
-  <span class='activity'>activity : {{activity.title}}</span>
-  <span class='task'>{{page.title}}</span>
+  <span class='subtitle'>task {{page.task}}</span>
+  <span class='title'>{{page.title}}</span>
 </div>
 <div class='page-content'>
   {% if page.content-position != "below" %}

@@ -1,5 +1,6 @@
 ---
-title: 'TASK ONE : MAKE THE BRUSH'
+task: 'ONE'
+title: 'MAKE THE BRUSH'
 permalink: mandala/:collection/make-the-brush
 layout: task
 activity: mandala
@@ -33,4 +34,3 @@ activities:
     Looks blocks.
   - Your code block should look like this.
 ---
-

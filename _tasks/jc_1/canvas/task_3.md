@@ -1,5 +1,6 @@
 ---
-title: 'TASK THREE : BRUSH STROKES'
+task: 'THREE'
+title: 'BRUSH STROKES'
 permalink: canvas/:collection/brush-strokes
 layout: task
 activity: canvas

@@ -3,13 +3,8 @@
   margin-bottom: 8px;
   font-size: 30px;
   font-weight: bold;
-  padding: 20px;
+  padding: 20px 15px;
 
-  &.-link {
-    display: block;
-    text-decoration: none;
-    color: white;
-  }
 
   &.-secondary {
     background-color: #2196F3;
@@ -20,10 +15,25 @@
     padding: 80px 20px
   }
 
-  .activity {
+  .subtitle {
     font-size: 15px;
     display: block;
     text-transform: uppercase;
+  }
+}
+
+.subheader {
+  background-color: #521b52;
+  font-size: 15px;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+}
+
+.header, .subheader {
+  &.-link {
+    display: block;
+    text-decoration: none;
+    color: white;
   }
 }
 

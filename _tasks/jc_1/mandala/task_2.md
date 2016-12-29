@@ -1,5 +1,6 @@
 ---
-title: 'TASK TWO : DRAW A CIRCLE'
+task: 'TWO'
+title: 'DRAW A CIRCLE'
 permalink: mandala/:collection/draw-a-circle
 layout: task
 activity: mandala
@@ -24,4 +25,3 @@ activities:
   - Now press the green flag, then press spacebar and see what happens.
   - Now the cat is a fast as The Flash!
 ---
-

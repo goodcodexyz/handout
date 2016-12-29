@@ -1,5 +1,6 @@
 ---
-title: 'TASK ONE : GETTING STARTED'
+task: 'ONE'
+title: 'GETTING STARTED'
 permalink: canvas/:collection/getting-started
 layout: task
 activity: canvas

@@ -1,5 +1,6 @@
 ---
-title: 'TASK FOUR : REMIX TIME!'
+task: 'FOUR'
+title: 'REMIX TIME!'
 permalink: stories/:collection/remix-time
 layout: task
 activity: stories

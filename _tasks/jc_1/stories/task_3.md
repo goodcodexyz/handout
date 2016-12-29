@@ -1,5 +1,6 @@
 ---
-title: 'TASK TWO : THE PLOT THICKENS'
+task: 'THREE'
+title: 'THE PLOT THICKENS'
 permalink: stories/:collection/plot-thickens
 layout: task
 activity: stories
