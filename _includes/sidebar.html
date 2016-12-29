@@ -3,9 +3,15 @@
     {% assign list = site.tasks | where: 'activity', include.id %}
 {% endcase %}
 <div class="sidebar">
-  <ul>
+  <ul class="menu-list">
     {% for item in list %}
-      <li>{{ item.title }}</li>
+      {% if item.url == page.url %}
+        <li class="menu-item -active">
+      {% else %}
+        <li class="menu-item">
+      {% endif %}
+        <a class="link" href={{item.url}}>{{ item.title }}</a>
+      </li>
     {% endfor %}
   </ul>
 </div>

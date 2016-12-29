@@ -6,4 +6,28 @@
   top: $navbar-height;
   bottom: 0;
   margin: 8px 0;
+
+  .menu-list {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .menu-item {
+    list-style: none;
+    background-color: #500c8e;
+    display: block;
+    padding: 5px;
+
+    &.-active {
+      background-color: #66398e;
+    }
+  }
+
+  .link {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+  }
 }

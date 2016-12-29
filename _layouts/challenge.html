@@ -1,5 +1,6 @@
 ---
 layout: default
+list: tasks
 ---
 {% assign activity = site.activities | where: 'slug', page.activity | first %}
 <a class='subheader -link' href="{{site.baseurl}}/activities/{{page.activity}}">Activity : {{activity.title}}</a>
