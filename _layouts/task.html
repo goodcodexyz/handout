@@ -1,8 +1,11 @@
 ---
 layout: default
 ---
-
-<div class='header'>{{page.title}}</div>
+{% assign activity = site.activities | where: 'slug', page.activity | first %}
+<div class='header'>
+  <span class='activity'>activity : {{activity.title}}</span>
+  <span class='task'>{{page.title}}</span>
+</div>
 <div class='page-content'>
   {% if page.content-position != "below" %}
   {{content | remove: '<p>' | remove: '</p>'}}

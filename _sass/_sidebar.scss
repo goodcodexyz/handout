@@ -3,7 +3,7 @@
   width: $sidebar-width;
   overflow-y: auto;
   position: fixed;
-  top: 86px;
+  top: $navbar-height;
   bottom: 0;
   margin: 8px 0;
 }
