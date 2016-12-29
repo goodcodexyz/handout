@@ -1,6 +1,8 @@
 {% case include.list %}
   {% when 'tasks' %}
     {% assign list = site.tasks | where: 'activity', include.id %}
+  {% when 'activities' %}
+    {% assign list = site.activities %}
 {% endcase %}
 <div class="sidebar">
   <ul class="menu-list">
