@@ -19,7 +19,8 @@
     display: block;
     padding: 5px;
 
-    &.-active {
+    &.-active,
+    &:hover {
       background-color: #66398e;
     }
   }

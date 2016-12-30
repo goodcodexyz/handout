@@ -27,6 +27,9 @@
   font-size: 15px;
   padding: 10px 15px;
   margin: 8px 0;
+  &:hover {
+    background-color: purple;
+  }
 }
 
 .header, .subheader {
