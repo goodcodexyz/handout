@@ -2,9 +2,13 @@
 <html>
   {% include head.html %}
   <body>
-    {% include navbar.html %}
+    {% include navbar.html list=layout.list %}
     {% include sidebar.html list=layout.list id=page.activity %}
-    <div class="main">
+    {% if layout.list %}
+      <div class="main" id="main">
+    {% else %}
+      <div class="main -full" id="main">
+    {% endif %}
       {{ content }}
     </div>
     {% include js.html %}

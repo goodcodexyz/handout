@@ -1,8 +1,13 @@
 <header class="navbar">
   <div class="nav-wrapper">
+    {% if include.list %}
+      <i class="icon ion-navicon-round" id="sidebar-btn"></i>
+    {% endif %}
     <a class="site-title" href="{{site.baseurl}}/"> {{site.title}} </a>
   </div>
   <div class="nav-image">
-    <img src="{{site.baseurl}}/images/good-code-orange.png">
+    <a href="http://goodcode.xyz/" target="_blank">
+      <img src="{{site.baseurl}}/images/good-code-orange.png" alt="Good Code">
+    </a>
   </div>
 </header>

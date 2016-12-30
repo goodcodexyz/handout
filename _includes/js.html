@@ -4,4 +4,13 @@
   document.addEventListener("DOMContentLoaded", function(event) {
     scratchblocks.renderMatching("bl", {inline: true});
   });
+
+  jQuery("#sidebar-btn").on( 'click', function(){
+    const sidebar = jQuery("#sidebar")
+
+    if( sidebar.hasClass("-active"))
+      sidebar.removeClass("-active")
+    else
+      sidebar.addClass("-active")
+  });
 </script>

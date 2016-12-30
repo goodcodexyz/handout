@@ -4,7 +4,11 @@
   {% when 'activities' %}
     {% assign list = site.activities | sort: 'order' %}
 {% endcase %}
-<div class="sidebar">
+{% if list %}
+  <div class="sidebar" id="sidebar">
+{% else %}
+  <div class="sidebar -hide" id="sidebar">
+{% endif %}
   <ul class="menu-list">
     {% for item in list %}
       {% if item.url == page.url %}

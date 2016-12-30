@@ -35,4 +35,18 @@
   @media screen and (max-width: 768px) {
     left: -$sidebar-width;
   }
+
+  &.-active {
+    @media screen and (max-width: 768px) {
+      left: 0;
+      right: 0;
+      margin: 16px 8px 0;
+      width: auto;
+      border-bottom: 8px solid white;
+    }
+  }
+
+  &.-hide {
+    display: none;
+  }
 }

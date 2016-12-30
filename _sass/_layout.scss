@@ -24,6 +24,14 @@
   vertical-align: middle;
   width: 100%;
 
+  .icon {
+    font-size: 20px;
+    margin-right: 8px;
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+
   .site-title {
     text-decoration: none;
     color: white;
@@ -37,6 +45,11 @@
   padding-top: $navbar-height;
 
   @media screen and (max-width: 768px) {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  &.-full {
     margin-left: 0;
     padding-left: 0;
   }
