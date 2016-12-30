@@ -22,3 +22,4 @@ baseurl: "/handout"
 url: http://goodcodexyz.github.io/handout
 repository: goodcodexyz/handout
 markdown: kramdown
+exclude: [archive]

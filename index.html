@@ -3,7 +3,8 @@ layout: default
 ---
 
 <div class="activities">
-  {% for activity in site.activities %}
+  {% assign activities = site.activities | sort: 'order' %}
+  {% for activity in activities %}
     <a class='header -link -list' href="{{site.baseurl}}{{activity.url}}">{{activity.title}}</a>
   {% endfor %}
 </div>
