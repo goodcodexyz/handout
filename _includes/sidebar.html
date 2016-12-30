@@ -2,7 +2,7 @@
   {% when 'tasks' %}
     {% assign list = site.tasks | where: 'activity', include.id %}
   {% when 'activities' %}
-    {% assign list = site.activities %}
+    {% assign list = site.activities | sort: 'order' %}
 {% endcase %}
 <div class="sidebar">
   <ul class="menu-list">

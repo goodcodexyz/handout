@@ -6,11 +6,23 @@
   background-color: white;
   padding: 8px;
 }
+.nav-image {
+  display: table-cell;
+
+  img {
+    height: $navbar-height;
+    display: block;
+    margin-left: 8px;
+  }
+}
 
 .nav-wrapper {
+  display: table-cell;
   padding: 8px;
   background-color: $navbar-color;
   padding: 15px;
+  vertical-align: middle;
+  width: 100%;
 
   .site-title {
     text-decoration: none;
