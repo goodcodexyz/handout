@@ -18,7 +18,7 @@ collections:
     title: Uploads
     output: true
 description: Check out the cool things you can build using Scratch! Happy coding!
-baseurl: "/handout"
+baseurl: ""
 url: http://goodcodexyz.github.io/handout
 repository: goodcodexyz/handout
 markdown: kramdown
